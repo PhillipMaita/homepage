@@ -1,0 +1,89 @@
+html, body {
+    height:100%;
+}
+body{
+    margin-top:450px;
+    text-align: center;;
+}
+
+/*
+=================================================
+SEARCH
+=================================================
+*/
+.form-wrapper{
+    display: block;
+    min-height: 72px;
+}
+form{
+    width:100%;
+    max-width:600px;
+    margin:0 auto;
+ }
+ input{
+    width:100%;
+    font-size:32px;
+    margin:5px 0;
+    float:left;
+    border:none;
+    padding:10px;
+    outline:none;
+ }
+ .search-bar{
+    width:80%;
+ }
+ .submit-button{
+    width:15%;
+    background:#ff0000;
+    color:#FFF;
+ }
+
+/*
+=================================================
+Clock
+=================================================
+*/
+ 
+#clock{
+    width:100%;
+    display:block;
+    margin:0 auto;
+    font-size:100px;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    color:#FFF;
+    font-style: normal;
+    padding:10px; 
+}
+
+/*
+=================================================
+Title
+=================================================
+*/
+ 
+h1 {
+    width:100%;
+    display:block;
+    margin:0 auto;
+    font-size:100px;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    color:#FFF;
+    font-style: normal;
+    padding:10px; 
+}
+
+/*
+=================================================
+Background
+=================================================
+*/
+
+body{
+    background: rgb(255,0,0);
+    background: radial-gradient(circle, rgba(255,0,0,1) 0%, rgba(172,0,0,1) 35%, rgba(148,0,0,1) 67%, rgba(125,0,0,1) 85%, rgba(0,0,0,1) 100%); 
+}: 
+
