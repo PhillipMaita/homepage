@@ -111,3 +111,23 @@ BOOKMARKS
     position:relative;
  }
  
+ /*
+=================================================
+POST-IT NOTE (IN CSS)
+=================================================
+*/
+#note{
+    width:250px;
+    height:250px;
+    resize: none;
+    background:#000000;
+    padding:15px;
+    border:none;
+    position: absolute;
+    bottom:50px;
+    left:50px;
+    font-family:sans-serif;
+    opacity:0;
+    color: white;
+   }
+   

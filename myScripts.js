@@ -17,3 +17,28 @@
 
 //Weather
     !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src='https://weatherwidget.io/js/widget.min.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','weatherwidget-io-js');
+    
+//POST-IT NOTE SAVE 
+if (localStorage["note"]) {
+    var note = localStorage["note"];
+    document.getElementById("note").value = note;
+ }
+  
+ function autoSave() {
+    var note = document.getElementById("note").value;
+    localStorage.setItem("note", note);
+ }
+ 
+ //POST-IT NOTE SHOW AND HIDE
+ var show = false;
+ function showNote(){
+    if (show == false){
+        document.getElementById("note").style.opacity = 1;
+        show = true;
+    }
+    else if (show == true){
+        document.getElementById("note").style.opacity = 0;
+        show = false;
+    }
+ }
+ 
